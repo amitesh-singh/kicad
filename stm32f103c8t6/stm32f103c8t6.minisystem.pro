@@ -1,6 +1,6 @@
-update=2015年08月14日 星期五 13时09分45秒
+update=五  8/14 17:40:56 2015
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -36,8 +36,6 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=/home/pi/development/electronic/kicad/library
@@ -101,3 +99,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=stm32
+[general]
+version=1
