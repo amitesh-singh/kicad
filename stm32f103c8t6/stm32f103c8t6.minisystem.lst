@@ -1,0 +1,92 @@
+eeschema (2013-dec-23)-stable  >> Creation date: 四  8/20 00:32:14 2015
+#Cmp ( order = Reference )
+| BT1        BATTERY     ;             
+| C1         22pF        ; SM0805      
+| C2         22pF        ; SM0805      
+| C3         10pF        ;             
+| C4         10pF        ;             
+| C5         1uF         ;             
+| C6         0.1uF       ;             
+| C7         0.1uF       ;             
+| C8         0.1uF       ;             
+| C9         0.1uF       ;             
+| C10        10uF        ;             
+| C11        10uF        ;             
+| C12        0.1uF       ;             
+| D1         LED         ;             
+| D2         LED         ;             
+| DIP1       JTAG        ; pin_arrary_10x2
+| L1         10uH        ;             
+| P1         CONN_6X2    ; pin_arrary_6x2
+| P2         CONN_6X2    ; pin_arrary_6x2
+| P3         CONN_6X2    ; pin_arrary_6x2
+| P4         CONN_6X2    ; pin_arrary_6x2
+| R1         10K         ;             
+| R2         10K         ;             
+| R3         22R         ; SM0805      
+| R4         22R         ; SM0805      
+| R5         1.5K        ; SM0805      
+| R6         10K         ;             
+| R7         0R          ;             
+| R8         1K          ;             
+| R9         1K          ;             
+| R10        10K         ;             
+| R11        10K         ;             
+| SIP0       BOOT0       ;             
+| SIP1       BOOT1       ;             
+| SIP2       USB_ENABLE  ; SIL-2       
+| SIP3       COM         ;             
+| SW1        RESET       ;             
+| U1         STM32F103C8T6; LQFP48      
+| U2         AMS1117-3.3 ; SOT-223     
+| USB1       USB-MINI-B  ; USB_Mini_B  
+| X1         8MHz        ;             
+| X2         32.768KHz   ;             
+#End Cmp
+
+#元件 ( 顺序 = 数值 )
+| BATTERY      BT1       ;             
+| 10pF         C3        ;             
+| 10pF         C4        ;             
+| 22pF         C1        ; SM0805      
+| 22pF         C2        ; SM0805      
+| 0.1uF        C6        ;             
+| 0.1uF        C7        ;             
+| 0.1uF        C8        ;             
+| 0.1uF        C9        ;             
+| 0.1uF        C12       ;             
+| 1uF          C5        ;             
+| 10uF         C10       ;             
+| 10uF         C11       ;             
+| LED          D1        ;             
+| LED          D2        ;             
+| JTAG         DIP1      ; pin_arrary_10x2
+| 10uH         L1        ;             
+| CONN_6X2     P1        ; pin_arrary_6x2
+| CONN_6X2     P2        ; pin_arrary_6x2
+| CONN_6X2     P3        ; pin_arrary_6x2
+| CONN_6X2     P4        ; pin_arrary_6x2
+| 0R           R7        ;             
+| 22R          R3        ; SM0805      
+| 22R          R4        ; SM0805      
+| 1K           R8        ;             
+| 1K           R9        ;             
+| 1.5K         R5        ; SM0805      
+| 10K          R1        ;             
+| 10K          R2        ;             
+| 10K          R6        ;             
+| 10K          R10       ;             
+| 10K          R11       ;             
+| BOOT0        SIP0      ;             
+| BOOT1        SIP1      ;             
+| COM          SIP3      ;             
+| USB_ENABLE   SIP2      ; SIL-2       
+| RESET        SW1       ;             
+| STM32F103C8T6 U1        ; LQFP48      
+| AMS1117-3.3  U2        ; SOT-223     
+| USB-MINI-B   USB1      ; USB_Mini_B  
+| 32.768KHz    X2        ;             
+| 8MHz         X1        ;             
+#元件列表结束
+
+#列表结束
