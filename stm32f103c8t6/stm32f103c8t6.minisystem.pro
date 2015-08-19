@@ -1,6 +1,6 @@
-update=2015年08月19日 星期三 14时36分27秒
+update=三  8/19 20:43:06 2015
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -36,37 +36,16 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=/home/pi/development/electronic/kicad/library
-NetFmt=1
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
-offX_A4=0
-offY_A4=0
-offX_A3=0
-offY_A3=0
-offX_A2=0
-offY_A2=0
-offX_A1=0
-offY_A1=0
-offX_A0=0
-offY_A0=0
-offX_A=0
-offY_A=0
-offX_B=0
-offY_B=0
-offX_C=0
-offY_C=0
-offX_D=0
-offY_D=0
-offX_E=0
-offY_E=0
+NetFmtName=
 RptD_X=0
 RptD_Y=100
 RptLab=1
-LabSize=60
+LabSize=50
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -99,5 +78,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=stm32
-[general]
-version=1
