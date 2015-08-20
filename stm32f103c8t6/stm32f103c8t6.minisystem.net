@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/anhui169/works/electronic/kicad/stm32f103c8t6/stm32f103c8t6.minisystem.sch)
-    (date "三  8/19 23:52:05 2015")
+    (date "五  8/21 00:07:00 2015")
     (tool "eeschema (2013-dec-23)-stable"))
   (components
     (comp (ref C12)
