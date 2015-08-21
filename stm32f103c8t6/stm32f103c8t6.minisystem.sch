@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "stm32f103c8t6 MiniSystem"
-Date "19 aug 2015"
+Date "21 aug 2015"
 Rev "001"
 Comp "an6734"
 Comment1 "Author: an6734@yahoo.com"
@@ -162,10 +162,6 @@ Wire Wire Line
 	1650 6650 1650 6300
 Wire Wire Line
 	1050 6400 1050 6300
-Wire Wire Line
-	1050 6950 700  6950
-Wire Wire Line
-	700  6950 700  7100
 Wire Wire Line
 	1050 6800 1050 7150
 Wire Wire Line
@@ -295,10 +291,6 @@ Wire Wire Line
 	4800 2900 5300 2900
 Wire Notes Line
 	0    4750 0    4900
-Wire Wire Line
-	700  5600 700  5450
-Wire Wire Line
-	700  5450 1050 5450
 Wire Wire Line
 	1050 4800 1050 4900
 Wire Wire Line
@@ -1078,17 +1070,6 @@ F 3 "" H 1050 7350 60  0001 C CNN
 	1    1050 7350
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR?
-U 1 1 55D4052C
-P 700 7100
-F 0 "#PWR?" H 700 7100 30  0001 C CNN
-F 1 "GND" H 700 7030 30  0001 C CNN
-F 2 "" H 700 7100 60  0001 C CNN
-F 3 "" H 700 7100 60  0001 C CNN
-	1    700  7100
-	1    0    0    -1  
-$EndComp
 Text GLabel 1900 7650 2    50   Input ~ 0
 OSC32_OUT
 Text GLabel 1900 6300 2    50   Input ~ 0
@@ -1097,17 +1078,6 @@ Text GLabel 1900 4800 2    50   Input ~ 0
 OSC_IN
 Text GLabel 1900 6150 2    50   Input ~ 0
 OSC_OUT
-$Comp
-L GND #PWR?
-U 1 1 55D4036C
-P 700 5600
-F 0 "#PWR?" H 700 5600 30  0001 C CNN
-F 1 "GND" H 700 5530 30  0001 C CNN
-F 2 "" H 700 5600 60  0001 C CNN
-F 3 "" H 700 5600 60  0001 C CNN
-	1    700  5600
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C2
 U 1 1 55D40351
@@ -1318,4 +1288,15 @@ Wire Wire Line
 Wire Wire Line
 	8350 800  8350 900 
 Connection ~ 8350 900 
+Text GLabel 750  6250 0    50   Input ~ 0
+GND
+Wire Wire Line
+	1050 5450 850  5450
+Wire Wire Line
+	850  5450 850  6950
+Wire Wire Line
+	850  6950 1050 6950
+Wire Wire Line
+	750  6250 850  6250
+Connection ~ 850  6250
 $EndSCHEMATC
